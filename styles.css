@@ -1,0 +1,119 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f1f1;
+  padding: 10px;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+a:focus {
+  outline: 2px solid #00FFFF;
+  outline-offset: 2px;
+  background-color: #e0f0ff;
+  color: #000;
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+  padding: 20px 10px 25px 10px;
+  color: #00FFFF;
+}
+
+.linkedin-logo{
+  width: 40px;
+  height: 40px;
+}
+
+.github-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 650px) {
+  .contact-info {
+    flex-direction: row;
+  }
+}
+
+.address {
+  padding: 10px;
+
+}
+
+@media (min-width: 650px) {
+  .address {
+    border-right: solid 1px #00FFFF;
+  }
+}
+
+.telefonnummer {
+  padding: 10px;
+
+  color: #00FFFF;
+}
+
+@media (min-width: 650px) {
+  .telefonnummer {
+    border-right: solid 1px #00FFFF;
+    border-left: solid 1px #00FFFF;
+  }
+}
+
+.email {
+  padding: 10px;
+  color: #00FFFF
+}
+
+@media (min-width: 650px) {
+  .email {
+    border-left: solid 1px #00FFFF;
+  }
+}
+
+.qr-code {
+  width: 50px;
+  height: 50px;
+}
+
+.profession {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.h2-container {
+  width: 100%;
+  background-color: #00FFFF;
+  padding: 2px;
+  color: #333333;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 10px 20px 10px;
+  color: #333333;
+}
